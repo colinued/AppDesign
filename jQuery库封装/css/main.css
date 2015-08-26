@@ -1,0 +1,101 @@
+* { margin: 0; padding: 0; -webkit-tap-highlight-color: transparent }
+a { text-decoration: none; outline: none; outline: -webkit-focus-ring-color auto 0 }
+ul { list-style: none }
+img { max-width: 100%; height: auto; border: none }
+
+/**
+ *  表单选择插件示例样式
+ */
+.clear-float:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+/*----单选按钮----*/
+.radio {}
+.radio .options {
+    padding: 10px;
+}
+.radio .options > li {
+    float: left;
+    margin-right: 5px;
+    padding: 5px;
+    background: #999;
+    cursor: pointer;
+}
+.radio .options > li.checked {
+    background: #666;
+}
+
+/*----复选框----*/
+.checkbox {}
+.checkbox .options {
+    padding: 10px;
+}
+.checkbox .options > li {
+    float: left;
+    margin-right: 5px;
+    padding: 5px;
+    background: #999;
+    cursor: pointer;
+}
+.checkbox .options > li.checked {
+    background: #666;
+}
+/*复选框icon样式*/
+.checkbox .options > li .checkbox-icon {}   /*默认*/
+.checkbox .options > li.checked .checkbox-icon {} /*选中*/
+
+
+/*----下拉select----*/
+.select {
+    position: relative;
+    float: left;
+    margin: 10px;
+    border: solid 1px #ccc;
+}
+.select .select-view {
+    position: relative;
+}
+.select .select-view .select-text {
+    padding-left: 10px;
+    padding-right: 30px;
+    height: 24px;
+    line-height: 24px;
+}
+.select .select-view .select-icon {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    border: solid 5px #fff;
+    border-top-color: #ccc ;
+    cursor: pointer;
+}
+.select .options {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 100%;
+    padding: 5px 0;
+    background: #fff;
+    width: 100%;
+    border: solid 1px #cccccc;
+}
+.select .options > li {
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+.count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
+
+#mynav{ width:100%; height:40px; background:#2093e0; border-bottom:1px solid #fff; position:relative; z-index:99; color:#fff; line-height:40px;}
+#mynav ul{width:1000px; padding:0; margin:0 auto; list-style-type:none;}
+#mynav ul li{ float:left; margin：0px 5px; border-right:1px solid #fff;}
+#mynav ul li a{ display:block; padding:0px 20px; height:40px; line-height:40px; color:#fff; text-shadow:0px -1px 0px rgba(30,30,30,0.60);}
+
